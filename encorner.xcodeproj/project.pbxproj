@@ -37,6 +37,7 @@
 		0FCBD00415BD3D1000165788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBD00315BD3D1000165788 /* AppDelegate.m */; };
 		0FCBD00715BD3D1000165788 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBD00615BD3D1000165788 /* MainViewController.m */; };
 		0FCBD00915BD3D1100165788 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCBD00815BD3D1100165788 /* MainViewController.xib */; };
+		0FEF107615BD3DAB0056DA0F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 0FEF107515BD3DAB0056DA0F /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +55,10 @@
 		0FCBCFCF15BD3D1000165788 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0FCBCFD115BD3D1000165788 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0FCBCFD315BD3D1000165788 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		0FCBCFD715BD3D1000165788 /* encorner-Info.plist */ = {isa = PBXFileReference; path = "encorner-Info.plist"; sourceTree = "<group>"; };
+		0FCBCFD715BD3D1000165788 /* encorner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "encorner-Info.plist"; sourceTree = "<group>"; };
 		0FCBCFD915BD3D1000165788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FCBCFDB15BD3D1000165788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0FCBCFDD15BD3D1000165788 /* encorner-Prefix.pch */ = {isa = PBXFileReference; path = "encorner-Prefix.pch"; sourceTree = "<group>"; };
+		0FCBCFDD15BD3D1000165788 /* encorner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "encorner-Prefix.pch"; sourceTree = "<group>"; };
 		0FCBCFDE15BD3D1000165788 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		0FCBCFE315BD3D1000165788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0FCBCFE715BD3D1000165788 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +71,14 @@
 		0FCBCFFB15BD3D1000165788 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		0FCBCFFD15BD3D1000165788 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = text; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		0FCBCFFF15BD3D1000165788 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		0FCBD00215BD3D1000165788 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		0FCBD00215BD3D1000165788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		0FCBD00315BD3D1000165788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		0FCBD00515BD3D1000165788 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		0FCBD00515BD3D1000165788 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		0FCBD00615BD3D1000165788 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		0FCBD00815BD3D1100165788 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		0FCBD00B15BD3D1100165788 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		0FCBD00C15BD3D1100165788 /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		0FCBD00B15BD3D1100165788 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		0FCBD00C15BD3D1100165788 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		0FEF107515BD3DAB0056DA0F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		0FCBCFA915BD3D1000165788 = {
 			isa = PBXGroup;
 			children = (
+				0FEF107515BD3DAB0056DA0F /* www */,
 				0FCBCFD515BD3D1000165788 /* encorner */,
 				0FCBCFBA15BD3D1000165788 /* Frameworks */,
 				0FCBCFB815BD3D1000165788 /* Products */,
@@ -328,6 +331,7 @@
 				0FCBCFFE15BD3D1000165788 /* Capture.bundle in Resources */,
 				0FCBD00015BD3D1000165788 /* Cordova.plist in Resources */,
 				0FCBD00915BD3D1100165788 /* MainViewController.xib in Resources */,
+				0FEF107615BD3DAB0056DA0F /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +543,7 @@
 				0FCBD01115BD3D1100165788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
